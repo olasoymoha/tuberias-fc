@@ -2,23 +2,27 @@
     width: 100%;
 }
 
-.container {
-    background-color: #f0f0f0f0;
+.contenedorUno {
+    background-color: #000;
     padding: 2em;
 }
 
 .contenedorDos {
+    background-color: #f0f0f0f0;
+    padding: 2em;
     display: flex;
     justify-content: space-between;
-    border: 1px solid red;
+    gap: 1em;
 }
 
 .tabla {
     width: 100%;
-    border: 1px solid black;
+    overflow: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .ultimo {
     width: 100%;
-    border: 1px solid blue;
+    background-color: hsl(0, 0%, 100%);
+
 }
