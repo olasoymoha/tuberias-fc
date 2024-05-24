@@ -1,0 +1,24 @@
+.noticias {
+    width: 100%;
+}
+
+.container {
+    background-color: #f0f0f0f0;
+    padding: 2em;
+}
+
+.contenedorDos {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+}
+
+.tabla {
+    width: 100%;
+    border: 1px solid black;
+}
+
+.ultimo {
+    width: 100%;
+    border: 1px solid blue;
+}

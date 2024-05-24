@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root {
+    --negro: #000000,
+    --dorado: #beaf60,
+    --blanco: #ffffff
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
