@@ -2,12 +2,53 @@
 
 :root {
     --negro: #000000,
-    --dorado: #beaf60,
-    --blanco: #ffffff
+        --dorado: #beaf60,
+        --blanco: #ffffff
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    background-color: #1d1c1c;
+}
+
+.titulo {
+    color: #beaf60;
+    margin: 20px 0px 20px 0px;
+}
+
+.bg-oscuro {
+    background-color: #000 !important;
+}
+
+th {
+    color: white !important;
+}
+
+td {
+    color: white !important;
+}
+
+/* Total Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #beaf60;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #554e29;
 }
